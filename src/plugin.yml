@@ -1,0 +1,32 @@
+name: MainPlugin
+description:
+version: 1.0
+api-version: 1.13
+main: my.server.MainPlugin.Main
+
+commands:
+  join:
+    description: Nope
+    usage : /join
+  randomspawn:
+    description: Nope
+    usage: /randomspawn
+  coin:
+    description: Nope
+    usage: /coin
+  h:
+    description: Nope
+    usage: /h
+  claim:
+    description: Nope
+    usage: /claim
+    depend: [WorldGuard]
+  test:
+    description: Nope
+    usage: /test
+  leave:
+    description: Nope
+    usage: /leave
+  home:
+    description: Nope
+    usage: /home
